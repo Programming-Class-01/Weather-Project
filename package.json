@@ -1,0 +1,29 @@
+{
+  "name": "weatherproject",
+  "version": "1.0.0",
+  "description": "A weather project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Programming-Class-01/Weather-Project.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Zak Jacobson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Programming-Class-01/Weather-Project/issues"
+  },
+  "homepage": "https://github.com/Programming-Class-01/Weather-Project#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@types/node": "^20.5.3",
+    "ts-results": "^3.3.0"
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+
+<head>
+</head>
+<body>
+    <ul>
+      <!-- These will need to be updated to actually do things, are only named right now -->
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">Details</a></li>
+        <li><a href="#contact">Info</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+    <div class="header">
+        <h1>Check the weather!</h1>
+        </div>
+
+        <!-- Sample of text boxes and buttons, need to be tied to functions -->
+    <div class="box">
+            <form action="/action_page.php">
+              <label for="location">Location</label>
+              <input type="text" id="location" name="location" placeholder="Where would you like to see?">
+
+              <label for="country">Drop down box</label>
+              <select id="country" name="country">
+                <option value="australia">Example</option>
+                <option value="canada">Different Example</option>
+                <option value="usa">The Most Example-y of Examples</option>
+              </select>
+            
+              <input type="submit" value="Submit">
+            </form>
+          
+            <!-- Buttons that currently do nothing, one of them I would like to select a "random" location -->
+        <input type="button" class="button" value="PUSH ME">
+        <input type="button" class="button" value="Random"> <!-- Sample table to display data, can be modifed to whatever data we choose. Needs to be tied to function -->
+        <table>
+          <tr>
+            <th>Location</th>
+            <th>Temperature today</th>
+            <th>Average temperature for week</th>
+            <th>Rainfall</th>
+            <th>Alerts</th>
+          </tr>
+          <tr>
+            <td>This will be the location</td>
+            <td>This is today's temp</td>
+            <td>This is the average temp</td>
+            <td>This is the amount of rainfall</td>
+            <td>Are there any alerts?</td>
+          </tr>
+        </table>
+    </div>
+</body>
+</html>
